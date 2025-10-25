@@ -1,0 +1,15 @@
+# Web Frameworks (Choose one or include both if planning to use both)
+Flask==2.3.3
+gunicorn  # A production-ready WSGI server for Flask/Django
+
+# Database Connector for MySQL
+mysqlclient==2.2.0
+
+# ORM / Database Abstraction (Highly recommended for professional projects)
+SQLAlchemy==2.0.21
+
+# Utility
+python-dotenv==1.0.0  # For managing environment variables securely
+requests==2.31.0     # For making HTTP requests
+numpy==1.26.0        # Essential for any data-driven component
+pandas==2.1.1        # Essential for data manipulation and analysis
